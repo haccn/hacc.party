@@ -1,0 +1,10 @@
+body {
+	max-width: 37rem;
+	font-size: 1.2rem;
+	margin: auto;
+}
+@media (max-width: 38rem) {
+	body {
+		margin: 0 1rem;
+	}
+}

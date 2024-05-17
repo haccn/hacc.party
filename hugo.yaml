@@ -1,0 +1,10 @@
+baseURL: https://hacc.party/
+title: HACC Noosa (Heckin Awesome Coding Club)
+languageCode: en
+minify:
+  minifyOutput: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+disableKinds: ["rss"]
