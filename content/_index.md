@@ -16,8 +16,7 @@ Also it's free btw.
 
 You'll need to bring a computer, a charger, and yourself.
 
-**👉 Next Meeting:** 11 Jul 2024\
-**Theme:** Jazzing up this website?\
+{{<next_meet>}}
 **Time:** 6-7 pm\
 **Location:** [117 St Andrews Dr, Tewantin QLD 4565](https://maps.app.goo.gl/7exVwv6GUnJnDHYNA)
 
@@ -25,7 +24,7 @@ You'll need to bring a computer, a charger, and yourself.
 
 You should join the club Matrix room.
 
-This is where we all keep in touch between meetings.
+This is where we all keep in touch between meets.
 
 **👉 Join:** [#haccn:matrix.org](https://matrix.to/#/#haccn:matrix.org)\
 **Email:** [zac@hacc.party](mailto:zac@hacc.party?subject=ello&body=HACC%20looks%20awesome%20and%20I'm%20joining%20cuz%20I'm%20an%20epic%20gamer)\

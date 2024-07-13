@@ -1,0 +1,7 @@
+{{range $i, $e := .Site.Data.meets}}
+<div {{if eq $i 0}}class="next"{{end}}>
+	<h2>{{time.Format "2 Jan 2006" .date}}</h2>
+	<b>Theme:</b> {{markdownify .theme}}<br>
+	{{if .extra}}{{markdownify .extra}}{{end}}
+</div>
+{{end}}
