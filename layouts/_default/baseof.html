@@ -15,7 +15,7 @@
 
 	<meta property="og:title" content="{{.Site.Title}}">
 	<meta property="og:description" content="{{.Description}}">
-	<meta property="og:image" content="/banner.png">
+	<meta property="og:image" content="/banner.webp">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="{{.Permalink}}">
 </head>
@@ -25,8 +25,15 @@
 		<a href="/meets">meets</a>
 		<a href="/hackers">hackers</a>
 		<a href="/merch">merch</a>
-		<a href="https://codeberg.org/hacc">codeberg</a>
+		<a href="https://github.com/haccn">github</a>
 	</nav>
-	{{block "main" .}}{{end}}
+	<main>
+		{{block "main" .}}{{end}}
+	</main>
+	<footer>
+		<span>
+			made with &#129505; by HACCers
+		</span>
+	</footer>
 </body>
 </html>

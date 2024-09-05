@@ -1,21 +1,57 @@
+:root {
+	color-scheme: dark;
+	--hl: #88f;
+	--fg: #fee;
+	background: #222;
+	color: var(--fg);
+	font-size: 1.1rem;
+
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: monospace;
+}
 body {
 	max-width: 37rem;
-	font-size: 1rem;
 	margin: auto;
-}
-h1:first-of-type {
-	margin-top: 0;
+	border: 4px solid var(--fg);
 }
 nav {
 	display: flex;
 	gap: 1rem;
-	margin: 0.7rem 0;
-	padding: 0.7rem 0;
-	border: dashed gray;
-	border-width: 1px 0 1px 0;
+	padding: .7rem;
+	border-bottom: 2px solid var(--fg);
+}
+main {
+	padding: 1.2rem;
+}
+main > :first-child {
+	margin-top: 0;
+}
+main > :last-child {
+	margin-bottom: 0;
+}
+footer {
+	padding: .7rem;
+	border-top: 2px solid var(--fg);
+}
+footer * {
+	opacity: .5;
+}
+h1, h2 {
+	border-bottom: 2px solid gray;
+}
+a {
+	color: var(--hl);
+}
+.hl {
+	background: var(--hl);
+	padding: 0.3rem;
+	margin: -0.3rem;
+	color: var(--fg);
 }
 @media (max-width: 38rem) {
 	body {
-		margin: 0 1rem;
+		border: none;
 	}
 }

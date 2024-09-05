@@ -1,5 +1,5 @@
 ---
-description: club meetings
+description: HACC meetings
 ---
 
 {{<meets>}}
