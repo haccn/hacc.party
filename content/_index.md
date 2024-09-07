@@ -4,7 +4,7 @@ description: An epic coding club for anyone (roughly) over the age of 15 based i
 
 # &#10016; HACC
 
-Hello, I'm 18 and I'm starting a community where coders and computery people can help each other, show off, and share cool stuff.
+Hello, I'm 18 and I'm starting a community where coders and computery people can help each other, show off, and collaborate on cool stuff.
 
 Anyone (roughly) over the age of 15 with an interest in coding can join.
 
